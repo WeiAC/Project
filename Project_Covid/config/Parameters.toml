@@ -1,0 +1,22 @@
+[biophysical_constants]
+#transcription_saturation_constant=0.036                # units: µM
+#characteristic_transcript_length=1000                  # units: nt 
+energy_promoter_state_1=-49.162                        # units: kJ/mol
+#Gene_Conc = 0.005                                       # units: uM (PS2)
+
+Ribosome_conc = 2.3                                     #units: µM (Adhikari et al (2020) Front. Bioeng. Biotechnol.)
+translation_elongation_rate = 1.5                       #units: AA/sec
+translation_saturation_constant = 253.75                #units: uM 
+polysome_amplification_constant = 10.0                  #units: dimensionless (Adhikari et al (2020) Front. Bioeng. Biotechnol.)
+translation_initiation_time = 3.75                      #units: 1/hr
+translation_time_constant = 0.16                        #units: dimensionless (Adhikari et al (2020) Front. Bioeng. Biotechnol.)                            
+COVIDssRNA_conc = 5                                     #units: nM
+genome_genelength = 29903                               #units: bp
+RdRP_genelength = 2796                                  #units: nt
+nsp1_genelength = 540                                   #units: nt
+nsp4_genelength = 1500                                  #units: nt
+RdRP_proteinlength = 932                                #units: AA
+nsp1_proteinlength = 180                                #units: AA
+nsp4_proteinlength = 500                                #units: AA
+protein_half_life_in_hr = 0.24                          # units: hr (Adhikari et al (2020) Front. Bioeng. Biotechnol.)
+protein_half_life_in_sec = 893                          # units: sec
